@@ -28,7 +28,8 @@ ${data.githubLink}
 - [Description](#description)
 - [Github Link](#githubLink)
 - [Installation](#installation)
-- Usage(#usage)
+- [Usage](#usage)
+- [Contributors](#contributors)
 
 ## Installation
 ${data.installation}
@@ -37,6 +38,15 @@ ${data.installation}
 ${data.usage}
 
 ## License
+
+## Contributors
+The following people contributed to the creation of this application: ${data.contributors} 
+
+## Tests
+${data.tests}
+
+## Questions
+${data.questions}
 
 `;
 }

@@ -40,7 +40,7 @@ const questions = [
   {
     type: "input",
     name: "collaborators",
-    message: "List any collaborators.",
+    message: "List any collaborators by name (first and last).",
   },
   {
     type: "input",
