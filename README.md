@@ -3,7 +3,10 @@
 ## Description
 This professional README generator helps developers create a README without the hassle of writing it on their own by hand. It was created for the "Work smarter, not harder" developer. This README generator quickly creates a `README.md` for each new project.
 
-![Video of the Application](./Develop/utils/Application-Walkthrough.gif)
+A video of the application can be found in the UTILS folder.
+
+![Gif of the Application](./Develop/utils/Application-Walkthrough.gif)
+
 
 ## Github Link
 <a href="https://github.com/aliciavega731"> Github Profile Link </a>
