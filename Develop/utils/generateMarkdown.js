@@ -41,10 +41,10 @@ ${data.installation}
 ${data.usage}
 
 ## License
-This application is licensed by ${renderLicenseBadge} ${data.license}
+This application is licensed by ${data.license}.
 
 ## Contributors
-The following people contributed to the creation of this application: ${data.collaborators} 
+The following people contributed to the creation of this application: ${data.collaborators}.
 
 ## Tests
 ${data.tests} were done to ensure the success of this application.
