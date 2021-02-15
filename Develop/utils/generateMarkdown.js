@@ -1,6 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 
-
 function renderLicenseBadge(license) {
   if (license == "MIT") {
     return `![![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
@@ -41,6 +40,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
+
 This application is licensed by ${data.license}.
 
 ## Contributors
