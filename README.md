@@ -7,7 +7,6 @@ A video of the application can be found in the UTILS folder.
 
 ![Gif of the Application](./Develop/utils/Application-Walkthrough.gif)
 
-
 ## Github Link
 <a href="https://github.com/aliciavega731"> Github Profile Link </a>
 
