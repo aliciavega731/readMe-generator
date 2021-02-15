@@ -28,10 +28,10 @@ ${data.description}
 ## Table of Contents
 - [Application Name](#title)
 - [Description](#description)
-- [Github Link](#githubLink)
+- [Github Link](#githubUsername)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributors](#contributors)
+- [Contributors](#collaborators)
 
 ## Installation
 ${data.installation}
@@ -46,12 +46,10 @@ This application is licensed by ${renderLicenseBadge(data.license)}.
 The following people contributed to the creation of this application: ${data.collaborators}.
 
 ## Tests
-${data.tests} were done to ensure the success of this application.
+${data.tests} tests were done to ensure the success of this application.
 
 ## Questions
 If you have any other questions or concerns, please reach out via email ${data.email} or via <a href="https://github.com/${data.githubUsername}"> Github</a>.
-
-
 `;
 }
 
