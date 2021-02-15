@@ -35,7 +35,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Select the license you are using.",
-    choices: ["MIT", "Mozilla", "Apache"],
+    choices: ["MIT", "Mozilla", "Apache", "N/A"],
   },
   {
     type: "input",
@@ -67,7 +67,7 @@ function init() {
   inquirer.prompt(questions)
     .then(function(responses){
       console.log(responses)
-      writeToFile("./output/output.md", responses)
+      writeToFile("./output/newReadMe.md", responses)
     });
 }
 
