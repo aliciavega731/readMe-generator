@@ -9,27 +9,27 @@ const questions = [
   {
     type: "input",
     name: "title",
-    question: "What is the title of your application?",
+    message: "What is the title of your application?",
   },
   {
     type: "input",
     name: "description",
-    question: "Give a brief description of your application.",
+    message: "Give a brief description of your application.",
   },
   {
     type: "input",
     name: "githubLink",
-    question: "What is your GitHub deployment url?",
+    message: "What is your GitHub deployment url?",
   },
   {
     type: "input",
     name: "installation",
-    question: "How does the user install this application?",
+    message: "How does the user install this application?",
   },
   {
     type: "input",
     name: "usage",
-    question: "How does the user run this application?",
+    message: "How does the user run this application?",
   },
   {
     type: "list",
@@ -40,12 +40,17 @@ const questions = [
   {
     type: "input",
     name: "collaborators",
-    question: "List any collaborators.",
+    message: "List any collaborators.",
   },
   {
     type: "input",
     name: "tests",
-    question: "Were any tests run?",
+    message: "Were any tests run?",
+  },
+  {
+    type: "input",
+    name: "questions",
+    message: "Do you have any more questions about the application?",
   },
 ];
 
