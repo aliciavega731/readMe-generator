@@ -2,13 +2,13 @@
 
 function renderLicenseBadge(license) {
   if (license == "MIT") {
-    return `![![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
   }
   if (license == "Mozilla") {
-    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]`;
+    return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
   }
   if (license == "Apache") {
-    return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
+    return `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
   }
   if (license == "N/A") {
     return `No license attributed.`
@@ -23,7 +23,7 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Github Link
-${data.githubLink}
+<a href="https://github.com/${data.githubUsername}"> Github Profile Link </a>
 
 ## Table of Contents
 - [Application Name](#title)
@@ -40,8 +40,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-
-This application is licensed by ${data.license}.
+This application is licensed by ${renderLicenseBadge(data.license)}.
 
 ## Contributors
 The following people contributed to the creation of this application: ${data.collaborators}.
@@ -50,7 +49,9 @@ The following people contributed to the creation of this application: ${data.col
 ${data.tests} were done to ensure the success of this application.
 
 ## Questions
-${data.questions}
+If you have any other questions or concerns, please reach out via email ${data.email} or via <a href="https://github.com/${data.githubUsername}"> Github</a>.
+
+
 `;
 }
 

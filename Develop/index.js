@@ -18,8 +18,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "githubLink",
-    message: "What is your GitHub deployment url?",
+    name: "githubUsername",
+    message: "What is your Github username?",
   },
   {
     type: "input",
@@ -49,8 +49,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "questions",
-    message: "Do you have any more questions about the application?",
+    name: "email",
+    message: "What is your email?",
   },
 ];
 
